@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de malla curricular</title>
+    <link rel="stylesheet" href="style/main_style.css">
+    <link rel="stylesheet" href="style/style_top_bar.css">
+    <link rel="stylesheet" href="style/style_main_panel.css">
+    <link rel="stylesheet" href="style/style_right_bottom_panel.css">
+    <link rel="stylesheet" href="style/style_right_top_panel.css">
+</head>
+<body onload="tamañoActual();" onresize="tamañoActual();">
+    <div class="top-bar">
+        <section>
+            <p id="creditos-malla">0 cred.</p>
+            <p id="creditos-carrera">0 cred.</p>
+            <p id="creditos-libre">0 cred.</p>
+        </section>
+        
+        <div class="icon-menu" id="icon-menu">
+            <div class="icon-menu-bar"></div>
+        </div>
+
+        <nav>
+            <ul class="menu" id="main-menu">
+                <li class="menu-item">Archivo</li>
+                <li class="menu-item">Editar</li>
+                <li class="menu-item">Opciones</li>
+                <li class="menu-item">Más</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="main-panel">
+        </div>
+        <div class="right-panels">
+            <div class="right-top-panel">
+                <div class="prueba">
+
+                </div>
+            </div>
+            <div class="right-bottom-panel">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app/menu_funcionality.js"></script>
+</html>

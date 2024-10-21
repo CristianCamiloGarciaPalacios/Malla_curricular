@@ -1,0 +1,9 @@
+.right-bottom-panel {
+    background-color: gray;
+    height: 170px;
+    border-top: 1px solid white;
+    
+    @media screen and (max-height: 340px){
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+.right-top-panel {
+    background-color: gray;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.right-top-panel::-webkit-scrollbar {
+    width: 7px;
+    background-color: gray;
+}
+
+.right-top-panel::-webkit-scrollbar-thumb {
+    width: 7px;
+    background-color: white;
+    border-radius: 7px;
+}

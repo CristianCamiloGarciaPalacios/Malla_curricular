@@ -1,0 +1,25 @@
+html, body{
+    margin:0;
+}
+
+.top-bar {
+    background: gray;
+    border-bottom: 1px solid white;
+    height: 40px;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 41px);
+}
+
+.right-panels {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    border-left: 1px solid white;
+    @media screen and (max-width: 1000px){
+        width: 30%;
+    }
+}
