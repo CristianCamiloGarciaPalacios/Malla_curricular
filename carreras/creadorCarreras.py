@@ -3,6 +3,8 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import re
 
+# Features que faltan, numero de creditos por agrupacion para evitar poner más materias de las necesarias de ese tipo (tal vez no, por que no defino la carrera)
+
 nombreCarrera = "Ingeniería de Sistemas y Computación" 
 codigoCarrera = "2A74"
 
