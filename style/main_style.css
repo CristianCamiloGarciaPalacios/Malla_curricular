@@ -18,49 +18,10 @@ html, body{
 .right-panels {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 250px;
     height: 100%;
     border-left: 1px solid white;
     @media screen and (max-width: 1000px){
-        width: 30%;
+        width: 25%;
     }
-}
-
-.contenedor-semestres {
-    width: max-content;
-    margin-top: 10px;
-    background-color: white;
-}
-
-.semestre {
-    margin: 0;
-    text-align: center;
-    display: inline-block;
-    color: black;
-    background: none;
-    width: 120px;
-}
-
-.contenedor-creditos {
-    width: max-content;
-    margin-top: 10px;
-    background-color: white;
-}
-
-.credito {
-    margin: 0;
-    text-align: center;
-    display: block;
-    color: black;
-    background: none;
-    width: 120px;
-}
-
-.materia {
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: aquamarine;
-    width: 100px;
-    height: 80px;
 }
