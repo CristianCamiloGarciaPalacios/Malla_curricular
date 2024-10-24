@@ -1,7 +1,8 @@
 .right-top-panel {
     background-color: gray;
     overflow-y: auto;
-    flex-grow: 1;
+    overflow-x: auto;
+    flex: 1;
 }
 
 .right-top-panel::-webkit-scrollbar {

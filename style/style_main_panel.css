@@ -1,4 +1,5 @@
 .main-panel {
     background-color: white;
-    flex-grow: 1;
+    flex: 1;
+    overflow: auto;
 }

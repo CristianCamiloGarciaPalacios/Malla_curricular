@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
     <title>Organizador de malla curricular</title>
+    
     <link rel="stylesheet" href="style/main_style.css">
     <link rel="stylesheet" href="style/style_top_bar.css">
     <link rel="stylesheet" href="style/style_main_panel.css">
     <link rel="stylesheet" href="style/style_right_bottom_panel.css">
     <link rel="stylesheet" href="style/style_right_top_panel.css">
 </head>
-<body onload="tamañoActual();" onresize="tamañoActual();">
+<body>
     <div class="top-bar">
         <section>
             <p id="creditos-malla">0 cred.</p>
@@ -33,6 +39,8 @@
     </div>
     <div class="container">
         <div class="main-panel">
+            <div class="contenedor-semestres"></div>
+            <div class="contenedor-creditos"></div>
         </div>
         <div class="right-panels">
             <div class="right-top-panel">
@@ -45,5 +53,6 @@
         </div>
     </div>
 </body>
-<script src="app/menu_funcionality.js"></script>
+<script type="module" src="app/Materia.js"></script>
+<script type="module" src="app/main_app.js"></script>
 </html>
