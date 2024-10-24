@@ -5,8 +5,8 @@ const iconMenu = document.querySelector('#icon-menu');
 const mainMenu = document.querySelector('#main-menu');
 
 let arrayMaterias = [] // (semestre, fila)
-let numSemestres = 15
-let numFilas = 5
+let numSemestres = 10
+let numFilas = 6
 
 iconMenu.addEventListener('click', () => {
     mainMenu.classList.toggle('menu-show');

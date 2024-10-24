@@ -5,8 +5,8 @@ html, body{
 }
 
 .top-bar {
-    background: gray;
-    border-bottom: 1px solid white;
+    background: #EE9999;
+    border-bottom: 1px solid #F2F2EB;
     height: 40px;
 }
 
@@ -20,7 +20,7 @@ html, body{
     flex-direction: column;
     width: 250px;
     height: 100%;
-    border-left: 1px solid white;
+    border-left: 1px solid #F2F2EB;
     @media screen and (max-width: 1000px){
         width: 25%;
     }
