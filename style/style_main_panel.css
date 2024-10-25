@@ -15,7 +15,7 @@
 .main-panel::-webkit-scrollbar-thumb {
     height: 10px;
     width: 10px;
-    background-color: cadetblue;
+    background-color: #A0c0c0;
     border-radius: 10px;
 }
 

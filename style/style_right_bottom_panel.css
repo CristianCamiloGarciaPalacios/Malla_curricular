@@ -1,9 +1,55 @@
 .right-bottom-panel {
-    background-color: #CF9999;
-    height: 170px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: calc(10% / 2);
+    background-color: lightpink;
+    height: 140px;
+    padding: 5%;
     border-top: 1px solid #F2F2EB;
-    
+
     @media screen and (max-height: 340px){
         display: none;
     }
+}
+
+
+.botonMenu {
+    font-family: "Montserrat", sans-serif;
+    border: 3px solid rgba(211, 211, 211, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    white-space: nowrap;
+    color: #F2F2EB;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.botonMenu:hover {
+    cursor: pointer;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+#botonEditar {
+    background-color: #C7C700;
+}
+
+#botonCambiar {
+    background-color:#22BB22;
+}
+
+#botonEliminar {
+    background-color:#CC2222;
+}
+
+#botonGuardar {
+    background-color:#c735c7;
+}
+
+#botonSemestre {
+    background-color:#2222CC;
+}
+
+#botonFila {
+    background-color:#00a7a7;
 }

@@ -21,7 +21,7 @@ window.onload = function() {
         semestre.classList.add('semestre');
         const credito = document.createElement('p')
         credito.classList.add('credito');
-        credito.textContent = '0 creditos';
+        credito.textContent = '0 créditos';
         if (i < 9) {
             semestre.textContent = `semestre 0${i+1}`;
         } else {
