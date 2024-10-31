@@ -1,4 +1,4 @@
-import { Materia } from "/app/Materia.js";
+import { Materia } from '/Malla_curricular/app/Materia.js';
 
 const mainPanel = document.querySelector('.main-panel');
 const iconMenu = document.querySelector('#icon-menu');
